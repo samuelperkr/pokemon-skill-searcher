@@ -6,5 +6,3 @@ O que ela faz?
 
     * Mostra as habilidades;
     * Uma imagem do pokémon entrado;
-
-# pokemon-skill-searcher
