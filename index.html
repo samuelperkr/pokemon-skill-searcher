@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Skill Searcher</title>
+    <style>
+        body {
+            /* text-align: center; */
+            font-family: sans-serif;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            opacity: 0;
+        }
+
+        .img-opacity {
+            opacity: 1;
+        }
+
+        .opacity {
+            animation: opacity .7s;
+        }
+
+
+        @keyframes opacity {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 0.9;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Ache as habilidades de algum pokémon</h1>
+        <input id='poke-name' type="text" placeholder="coloque o nome do pokemon"/>
+        <button class='btn'>enviar</button>
+        <h2></h2>
+        <p><strong></strong></p>
+        <img alt='imagem do pokemon que você irá entrar'/>s
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
